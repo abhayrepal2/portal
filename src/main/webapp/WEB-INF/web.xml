@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<welcome-file-list>
+<welcome-file>login.jsp</welcome-file>
+</welcome-file-list>
+
+<servlet>
+<servlet-name>RegServ</servlet-name>
+<servlet-class>com.eml.dao.RegServ</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>RegServ</servlet-name>
+<url-pattern>/RegServ</url-pattern>
+</servlet>
+</web-app>
